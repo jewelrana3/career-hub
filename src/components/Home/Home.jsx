@@ -25,7 +25,6 @@ const Home = () => {
                 </div>
                 <img src={images} alt="" />
             </div>
-
             {/* Job Category List */}
 
             <div className='job-category'>
