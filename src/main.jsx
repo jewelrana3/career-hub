@@ -11,19 +11,23 @@ import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 
+
 const router = createBrowserRouter([
   {
     path:'/',
-    element:<App></App>,
+    element:<App />,
     children:[
       {
         path:'/',
-        element:<Home></Home>,
+        element:<Home />,
         loader:()=> fetch('data.json')
       },
       {
         path:'statistics',
-        element:<Statistics></Statistics>
+        element:<Statistics></Statistics>,
+        loader:()=>fetch('data.json')
+        
+        
       },
       {
         path:'blog',
