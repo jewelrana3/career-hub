@@ -1,22 +1,35 @@
-.home{
+.home {
     margin: 0 0 20px 166px;
+    
 }
 
-.home img{
+.home img {
     width: 816px;
     height: 744px;
 }
 
-.home-info{
+.home-info {
     margin-top: 148px;
+    
 }
-.home-info p{
+.home-info h1{
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+
+.home-info p {
     color: #757575
 }
-.get-button{
+
+.get-button {
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
     border-radius: 8px;
     padding: 10px;
-    border:none;
+    border: none;
     color: aliceblue;
+}
+
+.dream {
+    color: blue;
 }
