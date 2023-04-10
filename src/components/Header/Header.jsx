@@ -1,18 +1,19 @@
 import React from 'react';
 import './Header.css'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <nav>
             <ul className='d-flex justify-content-around align-items-center'>
                 <h3>Project Hub</h3>
-                <div>
-                    <a href="">Home</a>
-                    <a href="">Statistics</a>
-                    <a href="">Blog</a>
+                <div className='header-tag'>
+                    <Link to="/">Home</Link>
+                    <Link to="/statistics">Statistics</Link>
+                    <Link to="/blog">Blog</Link>
                     
                 </div>
-                <button>Apply Now</button>
+                <button className='apply-button'>Apply Now</button>
             </ul>
         </nav>
     );

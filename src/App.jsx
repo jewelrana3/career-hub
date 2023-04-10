@@ -5,7 +5,6 @@ import { Outlet } from 'react-router-dom';
 const App = () => {
   return (
     <div>
-      <h2>Bootstrap start deatails</h2>
       <Header></Header>
       <Outlet></Outlet>
     </div>

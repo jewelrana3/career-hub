@@ -1,0 +1,22 @@
+.home{
+    margin: 0 0 20px 166px;
+}
+
+.home img{
+    width: 816px;
+    height: 744px;
+}
+
+.home-info{
+    margin-top: 148px;
+}
+.home-info p{
+    color: #757575
+}
+.get-button{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    padding: 10px;
+    border:none;
+    color: aliceblue;
+}
