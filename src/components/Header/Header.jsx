@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css'
 import { Link } from 'react-router-dom';
+import images from '../../images/men.png'
 
 
 const Header = () => {
@@ -18,11 +19,6 @@ const Header = () => {
                 <button className='apply-button'>Apply Now</button>
             </ul>
         </nav>
-
-        {/* Job Category List */}
-        <div>
-            <h1>Job Category List</h1>
-        </div>
         </div>
     );
 };

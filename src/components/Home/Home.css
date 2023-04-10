@@ -1,6 +1,6 @@
 .home {
     margin: 0 0 20px 166px;
-    
+
 }
 
 .home img {
@@ -10,12 +10,13 @@
 
 .home-info {
     margin-top: 148px;
-    
+
 }
-.home-info h1{
+
+.home-info h1 {
     font-weight: 800;
     font-size: 40px;
-    
+
 }
 
 .home-info p {
@@ -32,4 +33,45 @@
 
 .dream {
     color: blue;
+}
+
+/* job Category List */
+.job-category h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px 0 80px;
+    /* align-items: center; */
+
+
+}
+
+.images img {
+    margin-top: 50px;
+}
+
+.images h2 {
+    font-size: 20px
+}
+
+.job-details {
+    margin-top: 10px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+/* home - company */
+.home-company{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
