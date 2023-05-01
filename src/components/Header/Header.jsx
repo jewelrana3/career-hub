@@ -13,6 +13,7 @@ const Header = () => {
                 <div className='header-tag'>
                     <Link to="/">Home</Link>
                     <Link to="/statistics">Statistics</Link>
+                    <Link to="/applied">Applied Jobs</Link>
                     <Link to="/blog">Blog</Link>
                     
                 </div>

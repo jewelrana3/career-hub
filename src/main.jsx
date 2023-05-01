@@ -10,6 +10,7 @@ import {
 import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
+import Applied from './components/Applied/Applied';
 
 
 const router = createBrowserRouter([
@@ -20,14 +21,20 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home />,
-        loader:()=> fetch('data.json')
+        loader:()=> fetch('/data.json')
       },
       {
         path:'statistics',
         element:<Statistics></Statistics>,
+       
+        
+        
+      },
+      {
+        path:'applied',
+        element:<Applied></Applied>,
         loader:()=>fetch('data.json')
-        
-        
+       
       },
       {
         path:'blog',

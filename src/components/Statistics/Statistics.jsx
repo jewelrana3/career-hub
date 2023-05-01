@@ -1,28 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
+import Applied from '../Applied/Applied';
 
 
 const Statistics = () => {
-    const madal = useLoaderData();
-    console.log(madal)
-    // const {jobDescription,Education,phone,email,Experience} = modalData;
-
-    // const [data,setData] = useState([]);
-
-    // useEffect(()=>{
-    //     fetch('data.json')
-    //     .then(res=>res.json())
-    //     .then(data=>setData(data))
-    // },[])
-    return (
+    return(
         <div>
-           <div>
-                {
-                    madal.map(data=><p>{data.email}</p>)
-                }
-           </div>
+            
         </div>
-    );
+    )
 };
 
 export default Statistics;

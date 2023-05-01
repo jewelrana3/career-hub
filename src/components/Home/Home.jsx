@@ -7,10 +7,13 @@ import social from '../../images/social-media 1.png'
 import './Home.css'
 import { useLoaderData } from 'react-router-dom';
 import Company from '../Company/Company';
+import Statistics from '../Statistics/Statistics';
+import Applied from '../Applied/Applied';
 
 
 const Home = () => {
     const datas = useLoaderData();
+    // const [cart,setCart] = useState();
 
     return (
 
@@ -63,12 +66,21 @@ const Home = () => {
                 <div className='home-company'>
                     {
                         datas.map(data => <Company
-                            key={data.salary}
+                            key={data.id}
                             data={data}
                         ></Company>)
                     }
                 </div>
             </div>
+            {/* cart components */}
+            {/* <div>
+                    {
+                        datas.map(cart=><Applied
+                        key={cart.id}
+                        cart={cart}
+                        ></Applied>)
+                    }
+            </div> */}
         </div>
 
     );
