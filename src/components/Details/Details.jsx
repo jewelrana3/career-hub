@@ -5,9 +5,9 @@ const Details = ({ data }) => {
     const { remote, fulltime, location, jobTitle, salary, image } = data
     return (
         <div className='d-flex justify-content-between p-2 rounded m-2' style={{ margin: '53px 0 0 20px', border: "1px solid" }}>
-            <div className='d-flex' >
+            <div className='d-flex'>
                 <img className='rounded' style={{ width: '240px', height: '240px', }} src={image} alt="" />
-                <div>
+                <div style={{margin:'46px 0 0 20px'}}>
                     <h4>{jobTitle}</h4>
                     <p>LLC Devolopment</p>
                     <div className=' d-flex ' >
@@ -21,7 +21,7 @@ const Details = ({ data }) => {
                 </div>
             </div>
             <div className=''>
-                <button className='view-details '>View Details</button>
+                <button style={{margin:'90px 20px 0 0'}} className='view-details '>View Details</button>
             </div>
         </div>
 
