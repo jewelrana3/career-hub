@@ -1,8 +1,8 @@
-  [
+[
     {
       "id":1,
-      "company": "ABC Corporation",
-      "image": "https://images.unsplash.com/photo-1619454016518-697bc231e7cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "company": "Technical Database Engineer",
+      "image": "https://i.ibb.co/v1Ds8yS/google-1-1-1.png",
       "salary": "$80,000 - $100,000",
       "location": "New York City, NY",
       "job": "Software Engineer",
@@ -18,8 +18,8 @@
     },
     {
       "id":2,
-      "company": "XYZ Inc.",
-      "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "company": "Senior Product Designer",
+      "image": "https://i.ibb.co/pRmVnhR/netflix-4-1.png",
       "salary": "$60,000 - $75,000",
       "location": "Los Angeles, CA",
       "job": "Marketing Specialist",
@@ -35,8 +35,8 @@
     },
     {
       "id":3,
-      "company": "Acme Co.",
-      "image": "https://images.unsplash.com/photo-1562307534-a03738d2a81a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "company": "Software Engineer",
+      "image": "https://i.ibb.co/ZBLfDLZ/tesla-9-1.png",
       "salary": "$90,000 - $110,000",
       "location": "Chicago, IL",
       "job": "Data Analyst",
@@ -52,8 +52,8 @@
     },
     {
       "id":4,
-      "company": "Beta Corp",
-      "image": "https://images.unsplash.com/photo-1563694983011-6f4d90358083?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGxvZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "company": "Technical Database Engineer",
+      "image": "https://i.ibb.co/h76XSjr/Group-10021.png",
       "salary": "$70,000 - $90,000",
       "location": "Houston, TX",
       "job": "Web Developer",
@@ -70,7 +70,7 @@
     {
       "id":5,
       "company": "Gamma Enterprises",
-      "image": "https://images.unsplash.com/photo-1516876437184-593fda40c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGxvZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "image": "https://i.ibb.co/v1Ds8yS/google-1-1-1.png",
       "salary": "$100,000 - $120,000",
       "location": "San Francisco, CA",
       "job": "Product Manager",
@@ -87,7 +87,7 @@
     {
       "id":6,
       "company": "Delta Industries",
-      "image": "https://images.unsplash.com/photo-1562307534-a03738d2a81a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "image": "https://i.ibb.co/pRmVnhR/netflix-4-1.png",
       "salary": "$80,000 - $100,000",
       "remote":"Remote",
       "fulltime":"FullTmie",

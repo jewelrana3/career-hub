@@ -1,30 +1,39 @@
-import React from 'react';
-import './Details.css'
+// import React from 'react';
 
-const Details = ({ data }) => {
-    const { remote, fulltime, location, jobTitle, salary, image } = data
+import { useLoaderData } from "react-router-dom";
+import './Details.css'
+const Details = () => {
+    const details = useLoaderData();
+    const {id, jobDescription, Education, address,Experience,phone,email, salary, jobTitle } = details;
+
+    const addToHandle=details=>{
+        console.log(details)
+    }
     return (
-        <div className='d-flex justify-content-between p-2 rounded m-2' style={{ margin: '53px 0 0 20px', border: "1px solid" }}>
-            <div className='d-flex'>
-                <img className='rounded' style={{ width: '240px', height: '240px', }} src={image} alt="" />
-                <div style={{margin:'46px 0 0 20px'}}>
-                    <h4>{jobTitle}</h4>
-                    <p>LLC Devolopment</p>
-                    <div className=' d-flex ' >
-                        <p className='remote'>{remote}</p>
-                        <p className='remote' style={{ marginLeft: '14px' }}>{fulltime}</p>
-                    </div>
-                    <div className='d-flex'>
-                        <p>{location}</p>
-                        <p>{salary}</p>
-                    </div>
+        <div>
+            <h2 className="text-3xl text-center mt-8">Job Details</h2>
+            <div className="grid grid-cols-2 mt-12">
+                <div className="tag px-20 bg-slate-100 py-4 ml-4 mr-4 gap-4">
+                    <p className="font-thin"><span className="font-semibold">jobDescription</span>:{jobDescription}</p>
+                    <p className="font-thin pt-2"><span className="font-semibold my-2">Education</span>:{Education}</p>
+                    <p className="font-thin pt-2"><span className="font-semibold">Experience</span>:{Experience}</p>
+                </div>
+                <div className="bg-sky-200 px-10 py-4 justify-start">
+                    <h2 className="text-sm font-semibold ">Job Details</h2>
+                    <div className="mt-2 border-b-2 border-indigo-500 ..."></div>
+                    <p>salary: {salary}</p>
+                    <p>jobTitle: {jobTitle}</p>
+                    <div className="mt-2 border-b-2 border-indigo-500 ..."></div>
+                    <h2 className="text-sm font-semibold  mt-3">Contact Information</h2>
+                    <div className="mt-2 border-b-2 border-indigo-500 ..."></div>
+                    <p>phone:{phone}</p>
+                    <p>Email: {email}</p>
+                    <p>Address: {address}</p>
                 </div>
             </div>
-            <div className=''>
-                <button style={{margin:'90px 20px 0 0'}} className='view-details '>View Details</button>
-            </div>
+            <button onClick={()=> addToHandle(details)} style={{marginLeft:'300px ',width:'640px'}} className="mt-4 p-2 text-white bg-cyan-600">Apply Now</button>
+           
         </div>
-
     );
 };
 
