@@ -29,15 +29,7 @@ const Company = ({ data }) => {
                     </div>
                 </div>
             </div>
-            {/* <div className='border'>
-                <img src={image} alt="" />
-                <h5 className=''>{company}</h5>
-                <button>Remote</button><button>Full Time</button>
-                <p><span> <MapPinIcon style={{ width: '20px' }} className="mapicon" />{location}</span><span>{salary}</span></p>
-
-                <div className='view-details'>
-                    <Link to={'/statistics'}> <button>View Details</button></Link>
-                    {/* <button onClick={handleAdd}>view</button> */}
+         
         </div>
 
 

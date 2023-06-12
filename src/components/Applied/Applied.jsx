@@ -3,11 +3,12 @@
 import { useLoaderData } from "react-router-dom";
 
 const Applied = () => {
-    const appliedJob = useLoaderData();
-    console.log(appliedJob)
+  const applied = useLoaderData();  
+    console.log(applied)
     return (
         <div>
-            <h2>name:{appliedJob.email}</h2>
+            <h2>email:{applied.email}</h2>
+            <h2>email:{applied.fulltime}</h2>
         </div>
     );
 };

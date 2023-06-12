@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 const Details = () => {
     const details = useLoaderData();
-    const { id, jobDescription, Education, address, Experience, phone, email, salary, jobTitle } = details;
+    const {  jobDescription, Education,jobRes, address, Experience, phone, email, salary, jobTitle } = details;
 
 
     useEffect(() => {
@@ -15,20 +15,20 @@ const Details = () => {
         const storedCart = getShoppingCart();
         console.log(storedCart)
         for (const id in storedCart) {
-            // const saveCart = details.find(product => product.id === id) 
             console.log(id)
         }
     }, [details])
     const addToHandle = details => {
-        console.log(details)
-        addToDb(id)
+        // console.log(details)
+        addToDb(details)
     }
     return (
         <div>
             <h2 className="text-3xl text-center mt-8">Job Details</h2>
             <div className="grid grid-cols-2 mt-12">
                 <div className="tag px-20 bg-slate-100 py-4 ml-4 mr-4 gap-4">
-                    <p className="font-thin"><span className="font-semibold">jobDescription</span>:{jobDescription}</p>
+                    <p className="font-thin"><span className="font-semibold">JobDescription</span>:{jobDescription}</p>
+                    <p className="font-thin"><span className="font-semibold">Job Responsibility</span>:{jobRes}</p>
                     <p className="font-thin pt-2"><span className="font-semibold my-2">Education</span>:{Education}</p>
                     <p className="font-thin pt-2"><span className="font-semibold">Experience</span>:{Experience}</p>
                 </div>
@@ -45,7 +45,7 @@ const Details = () => {
                     <p>Address: {address}</p>
                 </div>
             </div>
-            <button onClick={() => addToHandle(details)} style={{ marginLeft: '300px ', width: '640px' }} className="mt-4 p-2 text-white bg-cyan-600">Apply Now</button>
+            <button onClick={() => addToHandle(details)} style={{ marginLeft: '300px ', width: '640px' }} className="mt-4 mb-8 p-2 text-white bg-cyan-600">Apply Now</button>
 
         </div>
     );

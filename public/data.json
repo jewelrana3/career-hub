@@ -14,7 +14,8 @@
       "email": "jobs@company.com",
       "phone": "(123) 456-7890",
       "remote":"Remote",
-      "fulltime":"FullTmie"
+      "fulltime":"FullTmie",
+      "jobRes":"Collaborating  engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     },
     {
       "id":"2",
@@ -31,7 +32,8 @@
       "email": "jobs@company.com",
       "phone": "(123) 456-7890",
       "remote":"Remote",
-      "fulltime":"FullTmie"
+      "fulltime":"FullTmie",
+      "jobRes":"Collaborating with cross-functional teams: UI/UX designers often work  and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     },
     {
       "id":"3",
@@ -48,7 +50,8 @@
       "email": "jobs@company.com",
       "phone": "(123) 456-7890",
       "remote":"Remote",
-      "fulltime":"FullTmie"
+      "fulltime":"FullTmie",
+      "jobRes":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     },
     {
       "id":"4",
@@ -65,7 +68,8 @@
       "email": "jobs@company.com",
       "phone": "(123) 456-7890",
       "remote":"Remote",
-      "fulltime":"FullTmie"
+      "fulltime":"FullTmie",
+      "jobRes":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively  design ."
     },
     {
       "id":"5",
@@ -82,7 +86,8 @@
       "email": "jobs@company.com",
       "phone": "(123) 456-7890",
       "remote":"Remote",
-      "fulltime":"FullTmie"
+      "fulltime":"FullTmie",
+      "jobRes":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     },
     {
       "id":"6",
@@ -99,6 +104,7 @@
       "Experience": "5+ years of experience in marketing.",
       "address": "456 Oak St, Anytown USA",
       "email": "jobs@company.com",
-      "phone": "(123) 456-7890"
+      "phone": "(123) 456-7890",
+      "jobRes":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management,  business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     }
   ]
