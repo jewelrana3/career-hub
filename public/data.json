@@ -1,6 +1,6 @@
 [
     {
-      "id":1,
+      "id":"1",
       "company": "Technical Database Engineer",
       "image": "https://i.ibb.co/v1Ds8yS/google-1-1-1.png",
       "salary": "$80,000 - $100,000",
@@ -17,7 +17,7 @@
       "fulltime":"FullTmie"
     },
     {
-      "id":2,
+      "id":"2",
       "company": "Senior Product Designer",
       "image": "https://i.ibb.co/pRmVnhR/netflix-4-1.png",
       "salary": "$60,000 - $75,000",
@@ -34,7 +34,7 @@
       "fulltime":"FullTmie"
     },
     {
-      "id":3,
+      "id":"3",
       "company": "Software Engineer",
       "image": "https://i.ibb.co/ZBLfDLZ/tesla-9-1.png",
       "salary": "$90,000 - $110,000",
@@ -51,7 +51,7 @@
       "fulltime":"FullTmie"
     },
     {
-      "id":4,
+      "id":"4",
       "company": "Technical Database Engineer",
       "image": "https://i.ibb.co/h76XSjr/Group-10021.png",
       "salary": "$70,000 - $90,000",
@@ -68,7 +68,7 @@
       "fulltime":"FullTmie"
     },
     {
-      "id":5,
+      "id":"5",
       "company": "Gamma Enterprises",
       "image": "https://i.ibb.co/v1Ds8yS/google-1-1-1.png",
       "salary": "$100,000 - $120,000",
@@ -85,7 +85,7 @@
       "fulltime":"FullTmie"
     },
     {
-      "id":6,
+      "id":"6",
       "company": "Delta Industries",
       "image": "https://i.ibb.co/pRmVnhR/netflix-4-1.png",
       "salary": "$80,000 - $100,000",

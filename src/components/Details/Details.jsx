@@ -2,12 +2,26 @@
 
 import { useLoaderData } from "react-router-dom";
 import './Details.css'
+import { addToDb, getShoppingCart } from "../../utilies/fakedb";
+import { useEffect } from "react";
+
 const Details = () => {
     const details = useLoaderData();
-    const {id, jobDescription, Education, address,Experience,phone,email, salary, jobTitle } = details;
+    const { id, jobDescription, Education, address, Experience, phone, email, salary, jobTitle } = details;
 
-    const addToHandle=details=>{
+
+    useEffect(() => {
+       
+        const storedCart = getShoppingCart();
+        console.log(storedCart)
+        for (const id in storedCart) {
+            // const saveCart = details.find(product => product.id === id) 
+            console.log(id)
+        }
+    }, [details])
+    const addToHandle = details => {
         console.log(details)
+        addToDb(id)
     }
     return (
         <div>
@@ -31,8 +45,8 @@ const Details = () => {
                     <p>Address: {address}</p>
                 </div>
             </div>
-            <button onClick={()=> addToHandle(details)} style={{marginLeft:'300px ',width:'640px'}} className="mt-4 p-2 text-white bg-cyan-600">Apply Now</button>
-           
+            <button onClick={() => addToHandle(details)} style={{ marginLeft: '300px ', width: '640px' }} className="mt-4 p-2 text-white bg-cyan-600">Apply Now</button>
+
         </div>
     );
 };

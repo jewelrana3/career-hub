@@ -8,6 +8,9 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home/Home.jsx';
 import Details from './components/Details/Details.jsx';
+import Applied from './components/Applied/Applied.jsx';
+import { getShoppingCart } from './utilies/fakedb.js';
+
 
 const router = createBrowserRouter([
   {
@@ -31,6 +34,11 @@ const router = createBrowserRouter([
           return singleData;
         }
         // loader:({params})=> fetch(`data.json/${params.id}`)
+      },
+      {
+        path:'appliedjob',
+        element:<Applied></Applied>,
+       
       }
     ]
   },
