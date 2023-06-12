@@ -14,6 +14,11 @@ import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import Statistics from './components/Statistics/Statistics.jsx';
 import { getShoppingCart } from './utilies/fakedb.js';
 
+import Blogs from './components/Blogs/Blogs.jsx';
+import JobDetails from './components/Applied/JobDetails.jsx';
+import View from './components/View/View.jsx';
+
+
 
 const router = createBrowserRouter([
   {
@@ -46,6 +51,21 @@ const router = createBrowserRouter([
       },{
         path:'statistics',
         element:<Statistics></Statistics>
+      },
+      {
+        path:'blog',
+        element:<Blogs></Blogs>
+      },
+      {
+        path:'view/:id',
+        element:<View></View>,
+        loader:async({params})=> {
+         
+          const res = await fetch(`/data.json`)
+          const data = await res.json()
+          const singleData = data.find(d => d.id == params.id)
+          return singleData;
+        }
       }
     ]
   },
