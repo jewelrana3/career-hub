@@ -3,7 +3,8 @@ const addToDb = details => {
     let shoppingCart = getShoppingCart();
   
     // add quantity
-    const jobDetails = shoppingCart.find(pd=> pd.id === details.id)
+    const jobDetails = shoppingCart.find(pd=> pd.id == details.id)
+    console.log(details)
     if (!jobDetails) {
         const newJobs = [...shoppingCart,details]
         console.log(newJobs)

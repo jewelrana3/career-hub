@@ -19,7 +19,7 @@ const Details = () => {
         }
     }, [details])
     const addToHandle = details => {
-        // console.log(details)
+        console.log(details)
         addToDb(details)
     }
     return (
